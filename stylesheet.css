@@ -1,13 +1,41 @@
-header{
-text-align: center;
 
+
+
+
+header{
+font-size: xx-large;
+margin-top: 50px;
+background-color: burlywood;
+margin-left: 40%;
+margin-right: 40%;
+padding-top: 20px;
+padding-bottom: 20px;
 }
 
 
+body{
 
+text-align: center;
+font-family:monospace
+}
 
 p{
 
+font-size: x-large;
 
+}
 
+img{
+
+width: 20%;
+height: auto;
+
+}
+
+footer{
+font-size: x-large;
+background-color: burlywood;
+margin-top: 50px;
+padding-top: 50px;
+padding-bottom: 50px;
 }
