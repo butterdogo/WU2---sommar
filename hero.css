@@ -1,0 +1,79 @@
+img{
+
+    max-width: 100%;
+
+}
+
+
+
+body,html {
+
+margin: 0;
+
+}
+
+
+
+.hero {
+
+    position: relative;
+    height: 60vh;
+
+    >* {
+
+        position: absolute;
+    }
+
+
+    .overlay {
+
+        position: absolute;
+
+        top: 0;
+
+        left: 0;
+
+        height: 60vh;
+
+        width: 100%;
+
+        background-color: rgba(0, 0, 0, 0.2);
+
+    }
+
+
+    h1 {
+
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+        font-size: 6rem;
+
+        
+
+        color: aliceblue;
+
+        padding: 2rem;
+
+    }
+
+    img {
+
+        position: absolute;
+
+        top: 0;
+
+        left: 0;
+
+        aspect-ratio: 16/9;
+
+        height: 60vh;
+
+        width: 100%;
+
+        object-fit: cover;
+
+        object-position: center;
+
+    }
+
+}
